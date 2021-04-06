@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Ruluko);
+
+#content {
+  margin: 0 auto;
+  text-align: center;
+  width: 700px;
+}
+
+#nav {
+  margin: 50px 0px;
+}
+
+#title {
+  color: #F52F4F;
+  font-family: 'Oleo Script', cursive;
+  font-size: 50px;
+}
+
+.square {
+  background-color: #34495e;
+  border: 6px solid #2c3e50;
+  border-radius: 10px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+  display: flex; /* vertical centers the text in the box */
+  justify-content: center; /* horizontal centers text into box */
+  align-items: center; /* vertical centers text */
+}
+
+
+
+.grid
+{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+
+  background-color: white;
+  /* background-color: #34495e; */
+  color: red;
+  border: 0px solid #2c3e50;
+  border-radius: 10px;
+
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.red {
+  background-color: red;
+  color: #FFF;
+}
+
+.blue {
+  background-color: blue;
+  color: #FFF;
+}
+
+
+
+.clear {
+  clear: both;
+}
