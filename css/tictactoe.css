@@ -1,5 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
-@import url(http://fonts.googleapis.com/css?family=Ruluko);
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100&display=swap');
+
+#winner {
+  color: #b925ae;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 50px;
+}
 
 #content {
   margin: 0 auto;
@@ -7,13 +13,9 @@
   width: 700px;
 }
 
-#nav {
-  margin: 50px 0px;
-}
-
 #title {
-  color: #F52F4F;
-  font-family: 'Oleo Script', cursive;
+  color: #1c6e8e;
+  font-family: 'Dela Gothic One', cursive;
   font-size: 50px;
 }
 
@@ -49,14 +51,24 @@
   row-gap: 10px;
 }
 
-.red {
-  background-color: red;
+.red:before {
+  content: "X";
+  background-color: #34495e;
+  font-size: 2em;
   color: #FFF;
+
 }
 
-.blue {
-  background-color: blue;
+.blue:before{
+  content: "O";
+  background-color: #34495e;
+  font-size: 2em;
   color: #FFF;
+
+}
+
+.win {
+  background-color: pink;
 }
 
 

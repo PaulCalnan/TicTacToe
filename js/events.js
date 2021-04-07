@@ -1,15 +1,21 @@
 
 
+$(document).ready(function() {
 
-$(document).ready(function () {
 
 
-  $('.square').on('click', function (player) {
+  $('.square').on('click', function () {
+    if ($('div').parent(logo)) {
+    $(this).off('click')
+    };
+  let squareChoice = $(this).attr('id');
+  $(this).addClass(logo);
 
-  const squareChoice = + $(this).attr('id');
-  const apply = $(this).addClass(logo);
-    console.log(choose);
-    console.log(test);
+  $('#winner').text(winnerMessage);
+
+
+
+  turnSwap(player);
+  square(player, squareChoice);
   });
-
-  });
+});
