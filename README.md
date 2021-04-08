@@ -21,6 +21,9 @@ $ cd project0-main
 $ open or double click index.html
 ```
 
+[Or play it right now here!.. ](https://paulcalnan.github.io/project0/)
+
+
 ## Additional resources
 
 Learn to build your own here!..
