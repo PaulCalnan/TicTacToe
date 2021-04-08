@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100&display=swap');
 
 #winner {
+  min-height: 50px;
+  color: #b925ae;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 50px;
+}
+
+#next {
+  min-height: 50px;
   color: #b925ae;
   font-family: 'Londrina Solid', cursive;
   font-size: 50px;
@@ -19,6 +27,37 @@
   font-size: 50px;
 }
 
+#player {
+  color: #1c6e8e;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 20px;
+  padding: 40px;
+}
+
+#player1Score {
+  margin-top: 15px;
+  padding: 1rem;
+  border: 0.5rem solid rebeccapurple;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+  background: rebeccapurple;
+  color: white;
+}
+
+#player2Score {
+  margin-top: 15px;
+  padding: 1rem;
+  border: 0.5rem solid rebeccapurple;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+  background: rebeccapurple;
+  color: white;
+}
+
+#reset {
+  margin: 10px;
+}
+
 .square {
   background-color: #34495e;
   border: 6px solid #2c3e50;
@@ -31,35 +70,28 @@
   align-items: center; /* vertical centers text */
 }
 
-
-
-.grid
-{
-	width: 600px;
-	height: 600px;
+.grid {
+	width: 500px;
+	height: 500px;
 	margin: 0 auto;
-
   background-color: white;
-  /* background-color: #34495e; */
   color: red;
   border: 0px solid #2c3e50;
   border-radius: 10px;
-
 	display: grid;
 	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
   column-gap: 10px;
   row-gap: 10px;
 }
 
-.red:before {
+.cross:before {
   content: "X";
   background-color: #34495e;
   font-size: 2em;
   color: #FFF;
-
 }
 
-.blue:before{
+.naught:before {
   content: "O";
   background-color: #34495e;
   font-size: 2em;
@@ -71,8 +103,12 @@
   background-color: pink;
 }
 
-
-
-.clear {
-  clear: both;
+button {
+  margin-top: 15px;
+  padding: 1rem;
+  border: 0.5rem solid rebeccapurple;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+  background: rebeccapurple;
+  color: white;
 }
