@@ -3,6 +3,13 @@
 
 Vanilla version of the classic game, Tic-Tac-Toe.
 
+### Future features to be implemented:
+
+- [x] Reset Button
+- [ ] Score board
+- [ ] Player name input
+- [ ] AI
+
 #### Built with:
 
  - Javascript 
