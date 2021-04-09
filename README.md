@@ -1,8 +1,15 @@
 # project0
 # Tic-Tac-Toe
 
-A very simple version of Tic-Tac-Toe.\
-Built with Javascript, Jquery, HTML and CSS.\
+Vanilla version of the classic game, Tic-Tac-Toe.
+
+#### Built with:
+
+ - Javascript 
+ - Jquery 3.6.0 
+ - HTML
+ - CSS
+ 
 Human vs Human, no AI.
 
 ![game demo](/PaulsTicTacToe.gif)
