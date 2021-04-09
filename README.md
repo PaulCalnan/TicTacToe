@@ -17,7 +17,7 @@ Vanilla version of the classic game, Tic-Tac-Toe.
  - HTML
  - CSS
  
-Human vs Human, no AI.
+This current version - Human vs Human, no AI.
 
 ![game demo](/PaulsTicTacToe.gif)
 
