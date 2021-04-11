@@ -5,21 +5,35 @@ Vanilla version of the classic game, Tic-Tac-Toe.
 
 ### Future features to be implemented:
 
-- [x] Reset Button
-- [ ] Score board
-- [ ] Player name input
-- [ ] AI
+- [x]  Reset Button
+- [x]  Score board
+- [x]  Player name input
+- [ ]  AI
 
 #### Built with:
 
- - Javascript 
- - Jquery 3.6.0 
+ - Javascript
+ - Jquery 3.6.0
  - HTML
  - CSS
- 
-This current version - Human vs Human, no AI.
 
-![game demo](/PaulsTicTacToe.gif)
+#### Known Bugs:
+
+ First round (after refresh)
+
+ ```javascript
+ if (winnerMessage == '') {
+   $('#next').text('Next player turn - '+ nextPlayer);
+ }
+ ```
+ produces a missed <code>nextPlayer</code> count,
+ subsequent rounds on clicking <code>Reset</code> button execute as expected.
+
+This current version - Human vs Human, no AI.
+Updated GIF below shows first round missed next player count,
+then proper next player matched up on reset round.
+
+![game demo](/LatestTicTacToe.gif)
 
 
 ## Requirements

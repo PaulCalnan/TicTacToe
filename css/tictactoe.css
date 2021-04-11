@@ -13,6 +13,7 @@
   color: #b925ae;
   font-family: 'Londrina Solid', cursive;
   font-size: 50px;
+  margin: 10px;
 }
 
 #content {
@@ -27,11 +28,11 @@
   font-size: 50px;
 }
 
-#player {
+#player1, #player2 {
   color: #1c6e8e;
   font-family: 'Dela Gothic One', cursive;
   font-size: 20px;
-  padding: 40px;
+  padding: 10px;
 }
 
 #player1Score {
@@ -54,6 +55,22 @@
   color: white;
 }
 
+#group {
+  display: inline-block;
+
+}
+
+#bottomElements {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#bottomElements input, span, button {
+  text-align: center;
+  margin: 10px;
+}
+
 #reset {
   margin: 10px;
 }
@@ -71,8 +88,8 @@
 }
 
 .grid {
-	width: 500px;
-	height: 500px;
+	width: 300px;
+	height: 300px;
 	margin: 0 auto;
   background-color: white;
   color: red;
@@ -87,20 +104,41 @@
 .cross:before {
   content: "X";
   background-color: #34495e;
-  font-size: 2em;
+  font-size: 1em;
   color: #FFF;
 }
 
 .naught:before {
   content: "O";
   background-color: #34495e;
-  font-size: 2em;
+  font-size: 1em;
   color: #FFF;
 
 }
 
 .win {
   background-color: pink;
+}
+
+::placeholder {
+  color: #1c6e8e;
+  font-family: 'Dela Gothic One', cursive;
+}
+
+label[for=player1] {
+  display: block;
+  text-align: left;
+}
+
+label[for=player2] {
+  display: block;
+  text-align: right;
+}
+
+label {
+  color: #b925ae;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 30px;
 }
 
 button {
@@ -111,4 +149,5 @@ button {
   font-size: 1.5rem;
   background: rebeccapurple;
   color: white;
+  font-family: 'Dela Gothic One', cursive;
 }
