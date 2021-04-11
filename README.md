@@ -3,7 +3,7 @@
 
 Vanilla version of the classic game, Tic-Tac-Toe.
 
-### Future features to be implemented:
+### Future features marked if implemented:
 
 - [x]  Reset Button
 - [x]  Score board
@@ -19,19 +19,20 @@ Vanilla version of the classic game, Tic-Tac-Toe.
 
 #### Known Bugs:
 
- First round (after refresh)
+ First round (after refresh)...
 
  ```javascript
  if (winnerMessage == '') {
    $('#next').text('Next player turn - '+ nextPlayer);
  }
  ```
- produces a missed <code>nextPlayer</code> count,
+ ...produces a missed <code>nextPlayer</code> count,\
  subsequent rounds on clicking <code>Reset</code> button execute as expected.
 
-This current version - Human vs Human, no AI.
-Updated GIF below shows first round missed next player count,
-then proper next player matched up on reset round.
+This current version - Human vs Human, no AI.\
+Updated GIF below shows first round with missed next player count.\
+Proper count of <code>nextPlayer</code> matches up on reset to next round.
+##
 
 ![game demo](/LatestTicTacToe.gif)
 
