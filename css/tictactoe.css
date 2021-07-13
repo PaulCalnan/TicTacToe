@@ -31,8 +31,8 @@
 #player1, #player2 {
   color: #1c6e8e;
   font-family: 'Dela Gothic One', cursive;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 15px;
+  padding: 7px;
 }
 
 #player1Score {

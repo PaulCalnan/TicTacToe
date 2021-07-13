@@ -2,6 +2,7 @@ $(document).ready(function() {
   $('#next').text('Starting player chosen at random!');
   $('button').text('Start');
   $('#start').click( function () {
+
     $('#start').addClass('reset');//Changes start button to reset play function
     $('button').text('Reset');
     computer();//Triggers random player function
@@ -17,6 +18,8 @@ $(document).ready(function() {
     $('.square').on('click', function () {
       //Checks if any win message is present, if so, appends next player
       if (winnerMessage == '') {
+        // console.log('playername', playername)
+        console.log('nextPlayer', nextPlayer)
         $('#next').text('Next player turn - '+ nextPlayer);// If no win, message next player turn
       }
       //Checks if any win message is present, if so, ends the game

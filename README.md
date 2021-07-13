@@ -1,7 +1,8 @@
-# project0
+# My first project during the
+# General Assembly Software Immersive course
 # Tic-Tac-Toe
 
-Vanilla version of the classic game, Tic-Tac-Toe.
+Given a week, our very first project task was to create our own version of the classic game, Tic-Tac-Toe.
 
 ### Future features marked if implemented:
 
@@ -58,7 +59,3 @@ $ open or double click index.html
 Learn to build your own here!..
 
 - [General Assembly Sydney](https://tinyurl.com/5xm6mun5)
-
-Or if you've already experienced the wonders of Javascript before, you may be interested in!..
-
-- [Lifeline Australia](https://www.lifeline.org.au/)
