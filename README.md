@@ -1,8 +1,8 @@
-# My first project during the
-# General Assembly Software Immersive course
+
 # Tic-Tac-Toe
 
-Given a week, our very first project task was to create our own version of the classic game, Tic-Tac-Toe.
+My first project, created during my time at General Assembly.
+Given a week, our task was to create our own version of the classic game, Tic-Tac-Toe.
 
 ### Future features marked if implemented:
 
@@ -51,7 +51,7 @@ $ cd project0-main
 $ open or double click index.html
 ```
 
-[Or play it right now here!.. ](https://paulcalnan.github.io/project0/)
+[Or play it right now here!.. ](https://paulcalnan.github.io/TicTacToe/)
 
 
 ## Additional resources
